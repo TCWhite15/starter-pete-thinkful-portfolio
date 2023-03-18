@@ -140,6 +140,11 @@ img {
 .item-text {
   font-size: 14px;
 }
+
+.right {
+  font-size: 14px;
+}
+
 /* Footer */
 footer {
   text-align: center;
