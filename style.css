@@ -43,8 +43,7 @@ h3.abstract {
 /* Header */
 header {
   display: flex;
-  text-align: center;
-  margin-left: 400px;
+  justify-content: center;
 }
 
 /* Containers */
@@ -66,6 +65,7 @@ article div {
 /* Paragraphs */
 p {
   line-height: 1.5;
+  font-size: 14px;
 }
 
 p.about{
@@ -99,10 +99,20 @@ nav {
 img {
   width: 100%;
   max-width: 200px;
-  height: auto;
   float: center; margin: 0px 15px 15px 0px
 }
-
+.img1 {
+  height: 320px;
+  width: 175px;
+}
+.img2 {
+  height: 290px;
+  width: 290px;
+}
+.img3 {
+  height: 300px;
+  width: 180px;
+}
 .container.space-evenly {
   justify-content: space-around;
   text-align: center;
@@ -124,6 +134,19 @@ img {
   border: 2px solid #003049;
   border-radius: 50%;
   float: left; margin: 0px 15px 15px 0px
+}
+.item-text {
+  font-size: 14px;
+}
+
+.item-text2 {
+  font-size: 14px;
+  width: 285px;
+}
+
+.item-text3 {
+  font-size: 14px;
+
 }
 
 /* Footer */
