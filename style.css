@@ -74,6 +74,7 @@ p.about{
 
 ul.center {
   margin-left: 300px;
+  font-size: 14px;
 }
 
 /* Links */
@@ -128,6 +129,7 @@ img {
 
 .container.space-between{
   justify-content: space-between;
+  font: 14px;
 }
 
 .image-circle {
@@ -138,17 +140,6 @@ img {
 .item-text {
   font-size: 14px;
 }
-
-.item-text2 {
-  font-size: 14px;
-  width: 285px;
-}
-
-.item-text3 {
-  font-size: 14px;
-
-}
-
 /* Footer */
 footer {
   text-align: center;
